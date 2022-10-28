@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "76643924-e73f-4e05-9ae3-b6bad86c490f",
+		"name": "AWS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2639924"
+	},
+	"item": [
+		{
+			"name": "Image Filter",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://ozgung-image-filter-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://logos-download.com/wp-content/uploads/2017/11/Liverpool_FC_Logo_2017.png",
+					"protocol": "http",
+					"host": [
+						"ozgung-image-filter-dev",
+						"us-east-1",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"filteredimage"
+					],
+					"query": [
+						{
+							"key": "image_url",
+							"value": "https://logos-download.com/wp-content/uploads/2017/11/Liverpool_FC_Logo_2017.png"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
