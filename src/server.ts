@@ -1,11 +1,14 @@
 import express from 'express';
 import bodyParser from 'body-parser';
+import {basicAuth} from './auth';
+
 import {filterImageFromURL, deleteLocalFiles} from './util/util';
 
 (async () => {
 
   // Init the Express application
   const app = express();
+  app.use(basicAuth);
 
   // Set the network port
   const port = process.env.PORT || 8082;

@@ -10,7 +10,13 @@
 			"name": "Image Filter",
 			"request": {
 				"method": "GET",
-				"header": [],
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4=",
+						"type": "text"
+					}
+				],
 				"url": {
 					"raw": "http://ozgung-image-filter-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://logos-download.com/wp-content/uploads/2017/11/Liverpool_FC_Logo_2017.png",
 					"protocol": "http",
