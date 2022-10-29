@@ -37,7 +37,6 @@ Follow the process described in the course to `eb init` a new application and `e
 
 If you're feeling up to it, refactor the course RESTapi to make a request to your newly provisioned image server.
 
-
 ## ElasticBeanStalk URL
 
 http://ozgung-image-filter-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://logos-download.com/wp-content/uploads/2017/11/Liverpool_FC_Logo_2017.png
